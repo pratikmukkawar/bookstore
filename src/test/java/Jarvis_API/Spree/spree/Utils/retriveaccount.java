@@ -36,13 +36,15 @@ public class retriveaccount {
 
 
 
+
     Map<String,String> content1=response.jsonPath().getJsonObject("data.attributes");
 
     String email1=content1.get("email");
     System.out.println(email1);
     Assert.assertEquals(email1,"jarvisapi1@spree.com");
+    System.out.println("my email id="+email1);
 
-    
+
 
     }
 }
