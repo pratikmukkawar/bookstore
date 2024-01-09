@@ -1,0 +1,16 @@
+{
+  "user": {
+    "email": "jarvisapi1@spree.com",
+    "first_name": "Jarvis",
+    "last_name": "API",
+    "selected_locale": "en",
+    "password": "Test#123",
+    "password_confirmation": "Test#123",
+    "public_metadata": {
+      "user_segment": "supplier"
+    },
+    "private_metadata": {
+      "has_abandoned_cart": false
+    }
+  }
+}
